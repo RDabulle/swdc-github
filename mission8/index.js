@@ -10,8 +10,10 @@ for (let b = 0; b <= 10; b++) {
 }
 
 
-
-
+let arr = [1, 2, 3]
+for (let c of arr) {
+    console.log(c)
+}
 
 
 let obj = {
