@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>클립보드 복사 예제</title>
+    </head>
+    
+    <body>
+        <a onclick="copyURL()">복사하기</a>
+
+        <script>
+        function copyURL() {
+            navigator.clipboard.writeText("복사될 텍스트").then(() => alert("클립보드에 복사되었습니다.")).catch((reason) => console.error(reason));
+        }
+        </script>
+    </body>
+</html>
