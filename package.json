@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/RDabulle/swdc-github/issues"
   },
-  "homepage": "https://github.com/RDabulle/swdc-github#readme"
+  "homepage": "https://github.com/RDabulle/swdc-github#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
